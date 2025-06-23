@@ -1,8 +1,19 @@
+import Header from "./components/Header";
+import Paragraph from "./components/Paragraph";
+
+
+//root component
 function App(){
   return (
     <>
-    <h1>Hello!</h1>
-    <p>welcome to our webpage</p>
+    <Header />
+    <Paragraph />
+    <Header />
+    <Paragraph />
+    <Header />
+    <Paragraph />
+    
+    
   </>
   )
   
