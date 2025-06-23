@@ -8,10 +8,8 @@ function App(){
     <>
     <Header />
     <Paragraph />
-    <Header />
-    <Paragraph />
-    <Header />
-    <Paragraph />
+    
+    
     
     
   </>
