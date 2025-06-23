@@ -1,9 +1,7 @@
-//paragraph component
-function Paragraph(){
-  let x = 12;
-  let y = 5;
-  let z = x+y;
-  return <p>The sum of x and y is: {z}</p>;
+function Paragraph(props){
+  console.log(props);
+  
+  return<p>The current time is {props.time}<br /><br /><br />{props.x}</p>
+  
 }
-
 export default Paragraph;
